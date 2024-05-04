@@ -37,7 +37,7 @@ def main(config):
     element = re.match('Latest Observation (Secondary): ([0-9]*.?[0-9]*) kcfs', data)
     if element:
         kcfs = element[0][1]
-        print("Pumping at " + str(kcfs) + " kcfs")
+        print("Flowing at " + str(kcfs) + " kcfs")
     else:
         print("No latest observation")
         kcfs = "???"
