@@ -10,7 +10,7 @@ load("time.star", "time")
 TTL = 600
 
 def main(config):
-    gauge = config.get("gauge") or 'seli2' #replace prto3 with your chosen gauge
+    gauge = config.get("seli2") or 'seli2' #replace prto3 with your chosen gauge
 
     obcolor = "#4DD" 
     hicolor = "#4CC" 
